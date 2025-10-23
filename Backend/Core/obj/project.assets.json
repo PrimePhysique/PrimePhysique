@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lmmah\\Desktop\\PrimePhysique\\Backend\\Core\\Core.csproj",
+      "projectUniqueName": "C:\\Users\\lmmah\\Documents\\PrimePhysique\\Backend\\Core\\Core.csproj",
       "projectName": "Core",
-      "projectPath": "C:\\Users\\lmmah\\Desktop\\PrimePhysique\\Backend\\Core\\Core.csproj",
+      "projectPath": "C:\\Users\\lmmah\\Documents\\PrimePhysique\\Backend\\Core\\Core.csproj",
       "packagesPath": "C:\\Users\\lmmah\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lmmah\\Desktop\\PrimePhysique\\Backend\\Core\\obj\\",
+      "outputPath": "C:\\Users\\lmmah\\Documents\\PrimePhysique\\Backend\\Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lmmah\\AppData\\Roaming\\NuGet\\NuGet.Config",

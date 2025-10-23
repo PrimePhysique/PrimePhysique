@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lmmah\\Desktop\\PrimePhysique\\Backend\\Contracts\\Contracts.csproj",
+      "projectUniqueName": "C:\\Users\\lmmah\\Documents\\PrimePhysique\\Backend\\Contracts\\Contracts.csproj",
       "projectName": "Contracts",
-      "projectPath": "C:\\Users\\lmmah\\Desktop\\PrimePhysique\\Backend\\Contracts\\Contracts.csproj",
+      "projectPath": "C:\\Users\\lmmah\\Documents\\PrimePhysique\\Backend\\Contracts\\Contracts.csproj",
       "packagesPath": "C:\\Users\\lmmah\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lmmah\\Desktop\\PrimePhysique\\Backend\\Contracts\\obj\\",
+      "outputPath": "C:\\Users\\lmmah\\Documents\\PrimePhysique\\Backend\\Contracts\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lmmah\\AppData\\Roaming\\NuGet\\NuGet.Config",

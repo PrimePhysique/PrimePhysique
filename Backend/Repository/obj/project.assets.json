@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lmmah\\Desktop\\PrimePhysique\\Backend\\Repository\\Repository.csproj",
+      "projectUniqueName": "C:\\Users\\lmmah\\Documents\\PrimePhysique\\Backend\\Repository\\Repository.csproj",
       "projectName": "Repository",
-      "projectPath": "C:\\Users\\lmmah\\Desktop\\PrimePhysique\\Backend\\Repository\\Repository.csproj",
+      "projectPath": "C:\\Users\\lmmah\\Documents\\PrimePhysique\\Backend\\Repository\\Repository.csproj",
       "packagesPath": "C:\\Users\\lmmah\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lmmah\\Desktop\\PrimePhysique\\Backend\\Repository\\obj\\",
+      "outputPath": "C:\\Users\\lmmah\\Documents\\PrimePhysique\\Backend\\Repository\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lmmah\\AppData\\Roaming\\NuGet\\NuGet.Config",
