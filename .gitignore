@@ -1,0 +1,149 @@
+# =========================
+# General
+# =========================
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.env
+.env.*
+!.env.example
+
+# =========================
+# Node.js / CommonJS
+# =========================
+node_modules/
+dist/
+build/
+coverage/
+.nyc_output/
+.cache/
+.tmp/
+out/
+lib/
+logs/
+*.tsbuildinfo
+
+# =========================
+# Azure Functions Backend
+# =========================
+# Build output
+bin/
+obj/
+publish/
+local.settings.json    # contains secrets — do NOT commit
+.extensions/
+funcignore
+__pycache__/
+
+# VS Code / local tools
+.vscode/
+.idea/
+*.user
+*.suo
+*.vspscc
+*.vssscc
+
+# Python (falls Python-basierte Functions)
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+.venv/
+.Python
+
+# =========================
+# React Native Frontend
+# =========================
+# React Native specific
+ios/Pods/
+ios/build/
+android/.gradle/
+android/app/build/
+android/local.properties
+*.iml
+*.hprof
+
+# Metro / Bundler
+.expo/
+.expo-shared/
+.expo/*/cache/
+.expo/*/logs/
+.expo/*/settings.json
+web-build/
+*.packager
+*.bundle
+*.map
+
+# React Native cache
+.watchmanconfig
+*.watchman
+npm-debug.log
+yarn-error.log
+tmp/
+temp/
+
+# Xcode
+xcuserdata/
+*.xcuserstate
+*.xcworkspace
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+
+# Gradle
+.gradle/
+*.gradle
+gradle-app.setting
+gradlew
+gradlew.bat
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/readme.md
+
+# =========================
+# Miscellaneous
+# =========================
+*.swp
+*.swo
+*.tmp
+*.bak
+*.old
+*.orig
+
+# =========================
+# Package managers
+# =========================
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# (Optional: falls du Lockfiles committen willst, entferne die Zeilen oben)
+
+# =========================
+# JetBrains IDEs
+# =========================
+.idea/
+*.iml
+
+# =========================
+# macOS
+# =========================
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# =========================
+# Windows
+# =========================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
