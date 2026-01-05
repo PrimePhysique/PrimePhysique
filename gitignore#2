@@ -1,0 +1,45 @@
+# =========================
+# General
+# =========================
+.DS_Store
+.env
+.env.*
+*.log
+
+# =========================
+# Node / Expo / React Native
+# =========================
+node_modules/
+.expo/
+.expo-shared/
+web-build/
+dist/
+build/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Expo
+.expo/*
+.expo-shared/*
+
+# =========================
+# Rust
+# =========================
+/target
+**/*.rs.bk
+
+# Cargo.lock
+# (commit it for apps, ignore if library)
+# Cargo.lock
+
+# =========================
+# IDEs
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS
+# =========================
+Thumbs.db
