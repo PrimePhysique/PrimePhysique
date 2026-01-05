@@ -1,16 +1,16 @@
-## Hi there 👋
+# Prime Physique 💪
 
-<!--
-**PrimePhysique/PrimePhysique** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+AI-based fitness coach (MVP)
 
-Here are some ideas to get you started:
+## Features
+- Personalized training plan
+- Static & dynamic training week
+- PDF export
+- Expo (React Native) frontend
+- Rust backend (Axum)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Run backend
+```bash
+cd backend
+cargo run
+```
