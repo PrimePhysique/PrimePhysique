@@ -1,0 +1,52 @@
+use serde::{Serialize, Deserialize};
+
+#[derive(Debug, Deserialize)]
+pub struct TrainingRequest {
+    pub goal: String,
+    pub days_per_week: u8,
+    pub experience: String,
+}
+
+#[derive(Debug, Serialize)]
+pub struct TrainingWeek {
+    pub static_week: Vec<TrainingDay>,
+    pub generated_week: Vec<TrainingDay>,
+}
+
+#[derive(Debug, Serialize)]
+pub struct TrainingDay {
+    pub name: String,
+    pub exercises: Vec<Exercise>,
+}
+
+#[derive(Debug, Serialize)]
+pub struct Exercise {
+    pub name: String,
+    pub sets: u8,
+    pub reps: u8,
+    pub rpe: u8,
+}
+
+pub fn generate_week(req: TrainingRequest) -> TrainingWeek {
+    let static_week = (1..=req.days_per_week).map(|d| TrainingDay {
+        name: format!("Tag {}", d),
+        exercises: vec![
+            Exercise { name: "Kniebeugen".into(), sets: 3, reps: 8, rpe: 7 },
+            Exercise { name: "Bankdrücken".into(), sets: 3, reps: 10, rpe: 7 },
+            Exercise { name: "Klimmzüge".into(), sets: 3, reps: 8, rpe: 8 },
+            Exercise { name: "Schulterdrücken".into(), sets: 2, reps: 12, rpe: 7 },
+        ],
+    }).collect();
+
+    let generated_week = (1..=req.days_per_week).map(|d| TrainingDay {
+        name: format!("Tag {}", d),
+        exercises: vec![
+            Exercise { name: "Bankdrücken".into(), sets: 3, reps: 8, rpe: 7 },
+            Exercise { name: "Kniebeugen".into(), sets: 3, reps: 8, rpe: 7 },
+            Exercise { name: "Kreuzheben".into(), sets: 3, reps: 5, rpe: 8 },
+            Exercise { name: "Klimmzüge".into(), sets: 3, reps: 8, rpe: 8 },
+        ],
+    }).collect();
+
+    TrainingWeek { static_week, generated_week }
+}
