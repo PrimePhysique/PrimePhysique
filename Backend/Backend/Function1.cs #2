@@ -1,1 +1,10 @@
-
+public class Function1
+{
+    [FunctionName("Function1")]
+    public async Task<IActionResult> Run(
+        [HttpTrigger(AuthorizationLevel.Function, "get", "post")] HttpRequest req,
+        ILogger log)
+    {
+        return new OkObjectResult("Hello World");
+    }
+}
