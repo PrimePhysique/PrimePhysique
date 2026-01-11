@@ -33,3 +33,26 @@ build muscle, stay consistent, and track real progress.
 - AI-based coaching
 - Progress photos
 - Push notifications
+---
+
+## 🧭 App Screens (MVP)
+
+### 🏠 Home
+- Daily workout overview
+- Motivation message
+- Quick access to today’s plan
+
+### 🏋️ Training
+- Weekly training plan
+- Exercise list with sets & reps
+- Completed workout tracking
+
+### 📊 Progress
+- Body weight tracking
+- Measurements overview
+- Training history
+
+### ⚙️ Settings
+- User preferences
+- App configuration
+- Future: account management
